@@ -1,11 +1,11 @@
-# Weight control app
+# Weight_control app
 print("enter your sex: male or female")
 sex=input()
-print("inter your weight in kg")
+print("enter your weight in kg")
 x=weight=int(input ())
-print("inter your height in cm")
-y=height=int(input())
-print("inter your age")
+print("enter your height in cm")
+y=height=float(input())
+print("enter your age")
 z=age=int(input())
 
 # bmr:basal metabolic rate
@@ -30,7 +30,7 @@ if i=="gain":
     if bmr<ic:
         print("good job")
     else: 
-        print("you need to eat more idiot, do you wanna me to suggest something to eat?")
+        print("you need to eat more idiot, do you want me to suggest something to eat?")
 if i=="keep":
     if ic==bmr:
         print("that is soo good, do not eat and go to sleep right now")
